@@ -1,5 +1,6 @@
 @echo off
-C:\Users\GliderV5\adb.exe connect 127.0.0.1:58526
+<adb path> disconnect
+<adb path> connect <ip>:<port>
 cls
-C:\Users\GliderV5\adb.exe install %1
+<adb path> install %1
 pause
