@@ -1,4 +1,4 @@
-# Usage
+# Utilisation
 ## Windows 
 Editer le fichier bat en changeant le port et l'adresse IP de connexion que adb doit utiliser à cette ligne : 
 
