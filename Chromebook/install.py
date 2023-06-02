@@ -3,6 +3,7 @@ import os
 import time
 import subprocess
 
+
 try:
     output = subprocess.check_output(["adb", "version"])
 except:
