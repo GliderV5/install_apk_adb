@@ -11,11 +11,15 @@ except subprocess.CalledProcessError as e:
     input()
     exit()
 
-os.system("clear")
-file = sys.argv[1]
-os.system("adb reconnect")
-time.sleep(2)
-os.system("clear")
-os.system("adb install "+str(file))
-print("")
-print("Your application is being installed, please wait ...")
+try:
+    os.system("clear")
+    file = sys.argv[1]
+    os.system("adb reconnect")
+    time.sleep(2)
+    os.system("clear")
+    os.system("adb install "+str(file))
+    os.system("clear")
+    print()
+    print("Your application has been installed")
+except:
+    print("there was an error during installation, the file could not be installed correctly")
