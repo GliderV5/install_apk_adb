@@ -1,6 +1,6 @@
 @echo off
-<adb path> disconnect
-<adb path> connect <ip>:<port>
+<adb_path> disconnect
+<adb_path> connect <ip>:<port>
 cls
-<adb path> install %1
+<adb_path> install %1
 pause
