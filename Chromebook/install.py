@@ -5,7 +5,7 @@ import subprocess
 
 try:
     output = subprocess.check_output(["adb", "version"])
-except subprocess.CalledProcessError:
+except:
     answer = input("adb is not installed on your computer. Do you want to install it now ? (y,n) >>> ")
     if answer == "yes":
         try:
