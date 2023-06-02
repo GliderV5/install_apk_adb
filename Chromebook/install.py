@@ -18,8 +18,5 @@ try:
     time.sleep(2)
     os.system("clear")
     os.system("adb install "+str(file))
-    os.system("clear")
-    print()
-    print("Your application has been installed")
 except:
     print("there was an error during installation, the file could not be installed correctly")
