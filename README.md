@@ -2,7 +2,7 @@
 ## Windows 
 Editer le fichier bat en changeant le port et l'adresse IP de connexion que adb doit utiliser à cette ligne : 
 
-	<adb path> connect <ip>:<port>
+	<adb_path> connect <ip>:<port>
 
 Il faut aussi remplacer <adb_path> par le chemin d'installation de adb.
 
